@@ -29,12 +29,13 @@ This project implements a small HTTP server in `http/server.py` that can serve s
 ### Expected filesystem layout
 
 ```text
-/lib
-  ├── http
-  │   ├── __init__.py
-  │   └── server.py
-  ├── pic.txt
-  └── README.md
+/
+├── lib
+│   ├── http
+│   │   ├── __init__.py
+│   │   └── server.py
+│   └── pHeader.py
+└── pic.txt
 ```
 
 ## Usage

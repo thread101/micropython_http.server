@@ -116,7 +116,7 @@ class SimpleHTTPServer:
         s.bind(saddr)
         s.listen(1)
         ip = net.ifconfig()[0]
-        self.log(f"Server running on {ip}:{self.port} for {self.path} timeout: {timeout}")
+        self.log(f"Server running on http://{ip}:{self.port} for {self.path} timeout: {timeout}")
         self.active = True
         while self.active and utime.time() - startT < timeout:
             resp = ""
